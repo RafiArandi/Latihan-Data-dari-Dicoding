@@ -10,7 +10,7 @@ pip install numpy pandas scipy matplotlib seaborn Colab sreamlit npm localtunnel
 
 # Run streamlit app
 ```bash
-urllib.request.urlopen('https://ipv4.icanhazip.com').read().decode('utf8').strip("\n"))
-!streamlit run dasbord.py & npx localtunnel --port 8501
+urllib.request.urlopen('https://ipv4.icanhazip.com').read().decode('utf8').strip("\n")) #Meminta key untuk streamlit
+streamlit run dasbord.py & npx localtunnel --port 8501
 ```
 
