@@ -9,6 +9,13 @@ pip install numpy pandas scipy matplotlib seaborn Colab sreamlit npm localtunnel
 ```
 
 # Run streamlit app
+
+## Download Library
+```bash
+!pip install -q streamlit
+!npm install localtunnel
+```
+
 ## Pemanggilan key URL untuk streamlit
 ```bash
 import urllib
