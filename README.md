@@ -9,8 +9,14 @@ pip install numpy pandas scipy matplotlib seaborn Colab sreamlit npm localtunnel
 ```
 
 # Run streamlit app
+## Pemanggilan key URL untuk streamlit
 ```bash
-urllib.request.urlopen('https://ipv4.icanhazip.com').read().decode('utf8').strip("\n")) #Meminta key untuk streamlit
+import urllib
+print("Password/Enpoint IP for localtunnel is:",urllib.request.urlopen('https://ipv4.icanhazip.com').read().decode('utf8').strip("\n"))
+```
+
+## Run streamlit URL
+```bash
 streamlit run dasbord.py & npx localtunnel --port 8501
 ```
 
